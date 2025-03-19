@@ -1,0 +1,78 @@
+.btn-primary {
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: $purple-10;
+  display: inline-block;
+  padding: 14px 23px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  color: $gray-100;
+  font-weight: 500;
+  transition: background 0.4s ease;
+  &:hover {
+    background: $purple-20;
+    cursor: pointer;
+  }
+}
+
+.form-email {
+  max-width: 520px;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.16);
+  padding: 4px 4px 4px 2.4rem;
+  display: flex;
+  width: 100%;
+  gap: 1.6rem;
+  align-items: center;
+  input {
+    all: unset;
+    flex: 1;
+    border: none;
+  }
+}
+
+.card-recurso {
+  max-width: 225px;
+  width: 100%;
+  padding: 10px;
+  background: $gray-800;
+  border-radius: 5px;
+  .icon {
+    margin-bottom: 16px;
+  }
+  h5 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  p {
+    color: $gray-400;
+    font-size: 1.2rem;
+  }
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 10px;
+  }
+  .qtd-reviews {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: $gray-400;
+    span {
+      font-weight: 800;
+      margin-right: 8px;
+    }
+    img {
+      width: 20px;
+      height: 20px;
+    }
+    p {
+      color: $gray-700;
+    }
+  }
+}
