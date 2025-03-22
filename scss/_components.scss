@@ -21,10 +21,10 @@
   border: 1px solid rgba(255, 255, 255, 0.16);
   background: rgba(255, 255, 255, 0.16);
   padding: 4px 4px 4px 2.4rem;
-  display: flex;
+  @include flex-center;
   width: 100%;
   gap: 1.6rem;
-  align-items: center;
+
   input {
     all: unset;
     flex: 1;
@@ -53,14 +53,14 @@
 }
 
 .reviews {
-  display: flex;
-  align-items: center;
+  @include flex-center;
+
   img {
     margin-right: 10px;
   }
   .qtd-reviews {
-    display: flex;
-    align-items: center;
+    @include flex-center;
+
     font-size: 1.2rem;
     color: $gray-400;
     span {
