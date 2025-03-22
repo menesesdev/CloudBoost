@@ -1,0 +1,27 @@
+header {
+  position: sticky;
+  top: 8px;
+  z-index: 1000;
+  margin-top: 16px;
+  .container {
+    .content-header {
+      padding: 8px 10px;
+      border-radius: 100px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.04);
+      @include displayflex-center-justifybetween;
+      .left-content {
+        gap: 16px;
+        @include flex-center;
+        a {
+          gap: 8px;
+          @include flex-center;
+          transition: 0.3s ease;
+          &:hover {
+            font-weight: 550;
+          }
+        }
+      }
+    }
+  }
+}
