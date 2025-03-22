@@ -1,0 +1,40 @@
+.section-hero {
+  padding-top: 40px;
+  .container {
+    .hero-content {
+      border-bottom: 1px solid $purple-10;
+      @include flex-center;
+      padding-bottom: 80px;
+      .left-content {
+        @include displayflex-center-justifybetween;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        h1 {
+          max-width: 550px;
+          font-size: 4.8rem;
+        }
+        p {
+          max-width: 500px;
+        }
+        ul {
+          @include flex-center;
+          max-width: 350px;
+          gap: 20px;
+          
+        }
+        .review {
+          @include flex-center;
+          gap: 5px;
+          .review-texto {
+            gap: 5px;
+            @include flex-center;
+          }
+        }
+        .form-email {
+          max-width: 470px;
+        }
+      }
+    }
+  }
+}
