@@ -1,0 +1,28 @@
+.section-marketing {
+  .container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    position: relative;
+    .image-background {
+      z-index: -1;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 0;
+    }
+    .marketing-content {
+      @include flex-center;
+      flex-direction: column;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      text-align: center;
+      z-index: 1;
+      gap: 20px;
+      .btn-primary {
+        margin-top: 40px;
+      }
+    }
+  }
+}
