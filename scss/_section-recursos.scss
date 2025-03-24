@@ -1,0 +1,17 @@
+.section-recursos {
+  margin-top: 5rem;
+  .container {
+    border-bottom: 1px solid $purple-10;
+    .top-texto {
+      margin-bottom: 5rem;
+      @include displayflex-center-justifybetween;
+      h4 {
+        max-width: 750px;
+      }
+    }
+    .cards-recursos {
+      @include displayflex-center-justifybetween;
+      margin-bottom: 5rem;
+    }
+  }
+}
