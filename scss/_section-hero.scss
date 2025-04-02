@@ -21,7 +21,6 @@
           @include flex-center;
           max-width: 350px;
           gap: 20px;
-          
         }
         .review {
           @include flex-center;
@@ -33,6 +32,24 @@
         }
         .form-email {
           max-width: 470px;
+        }
+      }
+    }
+    @include responsivo("mobile") {
+      .hero-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        ul {
+          margin: 0 auto;
+        }
+        .form-email {
+          margin: 0 auto;
+          
+        }
+        .review {
+          margin: 0 auto;
+          margin-bottom: 2rem;
         }
       }
     }
