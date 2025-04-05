@@ -13,5 +13,21 @@
       @include displayflex-center-justifybetween;
       margin-bottom: 5rem;
     }
+    @include responsivo("mobile") {
+      .top-texto {
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        gap: 1rem;
+        h4 {
+          text-align: center;
+        }
+      }
+      .cards-recursos {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
+    }
   }
 }
